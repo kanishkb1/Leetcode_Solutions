@@ -14,4 +14,4 @@ class Solution:
         return ls            
          
         #Time complexity- O(N^2)
-        #Space complexity- O()
+        #Space complexity- O(n)
