@@ -7,3 +7,5 @@ class Solution:
             else:
                 num-=1
         return num
+    #Time complexity- O(N)
+    #Space complexity-O(1)
