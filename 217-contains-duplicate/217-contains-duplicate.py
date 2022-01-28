@@ -6,4 +6,5 @@ class Solution:
             return False
         else:
             return True
-        
+        #Space Complexity- O(N)
+        #Time Complexity- O(N)
