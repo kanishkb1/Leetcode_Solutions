@@ -5,3 +5,5 @@ class Solution:
         nums1 = set(list(range(1,n+1)))
         nums2 = nums1.difference(nums)
         return nums2
+    #Time complexity- O(n)
+    #Space complexity-O(n)
