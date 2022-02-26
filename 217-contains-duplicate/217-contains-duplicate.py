@@ -4,3 +4,5 @@ class Solution:
             return False
         else:
             return True
+    #Space Complexity- O(n)
+    #Time complexity- O(n)
