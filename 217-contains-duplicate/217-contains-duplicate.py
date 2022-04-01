@@ -6,3 +6,5 @@ class Solution:
             return False
         else:
             return True
+        #Runtime complexity- O(N)
+        #Time Complexity- O(N)
