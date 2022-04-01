@@ -1,8 +1,8 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        if len(set(nums))==len(nums):
+        #To sort the the given nums
+        sorted_nums = sorted(set(nums))
+        if len(sorted_nums)==len(nums):
             return False
         else:
             return True
-    #Space Complexity- O(n)
-    #Time complexity- O(n)
