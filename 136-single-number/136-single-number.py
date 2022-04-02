@@ -1,8 +1,8 @@
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
-        #nums1 = sum(sorted(nums))
-        #nums2 = sum(list(set(nums)) * 2)
-        return sum(list(set(nums)) * 2)- sum(sorted(nums))
+        list1 = list(set(nums))
+        updated_list1 = list1*2
+        return sum(updated_list1) - sum(nums)
         
-        #Time complexity- O(N)
-        #Space complexity-O(N)
+       #Time complexity-O(n) 
+       #Space Complexity- O(n)
