@@ -2,20 +2,19 @@ class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         #Using postfix sum/product and suffix sum/product
         n=len(nums)
-        output = [1]*n
-        
-        #Prefix product part
-        for i in range(0,n):
-            if i!=0:
-                output[i] = output[i-1] * nums[i-1]
-                
-        #Suffix product part
-        post = nums[n-1]
-        for i in range(n-1,0,-1):
-            output[i-1] = output[i-1] * post
-            post = post * nums[i-1]
+        res = [1]*n
+        prefix = 1
+        n=len(nums)
+        for i in range(n):
+            res[i] = prefix
+            prefix*= nums[i]
             
-        return output
+        postfix=1
+        for i in range(n-1,-1,-1):
+            res[i]*=postfix
+            postfix*=nums[i]
+        return res
+      
     
     #Time complexity- O(n)
-    #Space Complexity- O(n)
+    #Space Complexity- O(1)
