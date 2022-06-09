@@ -4,5 +4,7 @@ class Solution:
         for i in range(0,n):
             nums[i] = nums[i] ** 2
             
-        return sorted(nums)   
+        return sorted(nums)
+    #Space Complexity- O(1)
+    #Time complexity- O(n)
             
