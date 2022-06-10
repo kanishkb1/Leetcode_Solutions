@@ -1,10 +1,22 @@
 class Solution:
     def sortedSquares(self, nums: List[int]) -> List[int]:
-        n=len(nums)
-        for i in range(0,n):
-            nums[i] = nums[i] ** 2
-            
-        return sorted(nums)
-    #Space Complexity- O(1)
-    #Time complexity- O(n)
+        n = len(nums)
+        #declaration of two pointers
+        left = 0 
+        right = n - 1
+        i = len(nums)-1
+        ans = [0]*n
+        
+        while left <= right:
+            if abs(nums[left]) > abs(nums[right]):
+                ans[i] = nums[left] **2
+                left+=1
+                
+            else:
+                ans[i] = nums[right] ** 2
+                right-=1
+            i-=1   
+        return ans
+        
+    
             
