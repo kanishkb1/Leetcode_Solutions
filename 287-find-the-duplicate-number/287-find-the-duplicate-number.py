@@ -1,12 +1,17 @@
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
         nums.sort()
-        pointer1 = 0
-        pointer2 = len(nums)-1
-        while pointer1<pointer2:
-            if nums[pointer1]==nums[pointer1+1]:
-                return nums[pointer1]
-            if nums[pointer2]==nums[pointer2-1]:
-                return nums[pointer2]
-            pointer1+=1
-            pointer2-=1
+        n = len(nums)
+        first_pointer=0
+        second_pointer=n - 1
+        while second_pointer>first_pointer:
+            if nums[first_pointer]==nums[first_pointer+1]:
+                return nums[first_pointer]
+            if nums[second_pointer]==nums[second_pointer-1]:
+                return nums[second_pointer]
+            first_pointer+=1
+            second_pointer-=1
+                
+        
+        
+        
