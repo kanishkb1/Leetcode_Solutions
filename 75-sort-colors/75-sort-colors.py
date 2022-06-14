@@ -18,5 +18,7 @@ class Solution:
             else:
                 nums[i],nums[high]=nums[high],nums[i]
                 high-=1
+                #Time complexity- O(n)
+                #Space complexity-O(1)
                 
      
