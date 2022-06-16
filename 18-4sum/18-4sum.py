@@ -19,3 +19,6 @@ class Solution:
                     else:
                         start += 1
         return ans
+    
+    #Time complexity- O(n*n*n)
+    #Space copmplexity- O(n)
