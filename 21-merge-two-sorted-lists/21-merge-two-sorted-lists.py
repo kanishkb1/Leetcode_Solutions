@@ -26,3 +26,6 @@ class Solution:
         elif list2:
             tail.next=list2
         return dummy.next
+    
+    #Space Complexity- O(1) as no extra space is used.
+    #Time complexity- O(M+N)
