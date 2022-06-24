@@ -20,5 +20,6 @@ class Solution:
                 right=right-1
                 
         return area
-        
+        #Space complexity - O(1) as no extra space is used.
+        #Time complexity- O(n)
         
