@@ -7,4 +7,4 @@ class Solution:
         else:
             return True
         #Runtime complexity- O(N)
-        #Time Complexity- O(N)
+        #Space Complexity- O(N)
