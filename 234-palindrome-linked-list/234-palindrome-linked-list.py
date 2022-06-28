@@ -28,6 +28,9 @@ class Solution:
             head=head.next
                 
         return True
+    
+    #Time complexity- O(1)
+    #Space complexity- O(N)
         
         
             
