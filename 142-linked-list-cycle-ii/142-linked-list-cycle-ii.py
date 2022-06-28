@@ -19,3 +19,6 @@ class Solution:
                     slow_pointer= slow_pointer.next
                     fast_pointer= fast_pointer.next
                 return slow_pointer
+            
+            #Time complexity- O(N)
+            #Space complexity- O(1)
