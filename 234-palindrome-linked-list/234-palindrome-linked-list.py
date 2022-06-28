@@ -12,19 +12,19 @@ class Solution:
             fast_pointer = fast_pointer.next.next
             slow_pointer = slow_pointer.next
             
-        node = None
+        prev = None
             
         while slow_pointer:
-            nxt = slow_pointer.next
-            slow_pointer.next=node
-            node = slow_pointer
-            slow_pointer = nxt
+            temp = slow_pointer.next
+            slow_pointer.next=prev
+            prev = slow_pointer
+            slow_pointer = temp 
                 
-        while node:
-            if node.val!= head.val:
+        while prev:
+            if prev.val!= head.val:
                 return False
                 
-            node = node.next
+            prev = prev.next
             head=head.next
                 
         return True
