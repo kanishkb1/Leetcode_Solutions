@@ -35,7 +35,8 @@ class Solution:
             second.next = first
             second = next_hop
             
-        
+            #Time complexity- O(n)
+            #Space Complexity- O(1) as no extra space is used.      
         
         
         
