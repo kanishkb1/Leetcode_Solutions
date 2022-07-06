@@ -28,3 +28,6 @@ class Solution:
             p=p.next
         p.next = l or r
         return dummy.next    
+    
+    #Space Complexity- O(1)
+    #Time coomplexity- O(N)
