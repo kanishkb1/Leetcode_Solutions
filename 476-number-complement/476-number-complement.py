@@ -7,4 +7,7 @@ class Solution:
             mask = (mask<<1) | 1
             temp = temp >> 1
         return mask ^ num
+    
+    #Time complexity- O(n)
+    #Space complexity- O(1)
         
