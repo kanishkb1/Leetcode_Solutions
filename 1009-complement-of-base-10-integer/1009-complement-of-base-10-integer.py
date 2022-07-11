@@ -9,3 +9,5 @@ class Solution:
             mask = (mask <<1) | 1
             temp=temp >>1
         return n ^ mask 
+    #time complexity- O(n)
+    #space complexity- O(1)
