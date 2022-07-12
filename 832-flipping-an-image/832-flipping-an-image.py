@@ -8,4 +8,5 @@ class Solution:
             
                  
         return image        
-        
+        #Space complexity- O(1)
+        #Time complexity- O(n)
