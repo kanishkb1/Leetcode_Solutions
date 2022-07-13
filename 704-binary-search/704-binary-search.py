@@ -12,4 +12,6 @@ class Solution:
                 low = mid +1
         return -1        
         
+#Time complexity- O(log N) is total elements of array
+#Space complexity- O(1) as no extra space is used.
        
