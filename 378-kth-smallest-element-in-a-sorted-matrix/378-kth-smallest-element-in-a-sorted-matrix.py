@@ -22,3 +22,5 @@ class Solution:
                 right = mid
                         
         return left
+    #Time complexity- O(log m*n)
+    #SC: O(1)
