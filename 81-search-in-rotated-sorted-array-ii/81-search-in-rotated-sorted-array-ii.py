@@ -36,4 +36,7 @@ class Solution:
                     high= mid - 1
         return False      
     
+    #Space Complexity- O(log n)
+    #Time complexity- O(1)
+    
                  
