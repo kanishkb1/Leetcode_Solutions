@@ -22,3 +22,6 @@ class Solution(object):
                 left = mid+1
                 
         return False
+    
+    #SC: O(1)
+    #TC: O(log m*n)
