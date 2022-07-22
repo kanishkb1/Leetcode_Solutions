@@ -11,5 +11,9 @@ class Solution:
         
         else:
             return nums[n // 2]
+        #TC: O(log (n**2))
+        
+        #SC: O(n)
+        
             
             
