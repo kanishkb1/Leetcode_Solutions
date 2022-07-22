@@ -18,3 +18,6 @@ class Solution:
                 right = mid
         return arr[left:left+k]
         
+        
+        #Time complexity- O(log n)
+        #Space complexity- O(1)
