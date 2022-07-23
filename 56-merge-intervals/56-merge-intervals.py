@@ -17,3 +17,6 @@ class Solution:
                 result[-1][END] = max(result[-1][END],interval[END])
                 
         return result
+    
+    #Time complexity- O(n logn)
+    #Space complexity- O(N)
