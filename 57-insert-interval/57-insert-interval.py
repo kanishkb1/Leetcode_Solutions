@@ -23,7 +23,8 @@ class Solution:
             merged.append(intervals[i])
             i +=1
         return merged
-        
+        #Time complexity- O(N)
+        #Space complexity- O(n)
             
             
             
