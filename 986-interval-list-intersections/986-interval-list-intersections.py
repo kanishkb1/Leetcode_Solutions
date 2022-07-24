@@ -21,3 +21,6 @@ class Solution:
                 j+=1
                 
         return result
+    
+    #Time complexity- O(M+N)
+    #Space complexity- O(1)
