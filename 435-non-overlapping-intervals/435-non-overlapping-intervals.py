@@ -14,3 +14,6 @@ class Solution:
                 ans+=1
                 current = intervals[i]
         return n - ans
+    
+    #Time complexity- O(N)
+    #Space complexity- O(1)
