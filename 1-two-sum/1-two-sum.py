@@ -8,16 +8,15 @@ class Solution:
         
         #left will be incremented and right will be decremented.
         while left <= right:
-            if nums[left] + nums[right] == target:
+            if nums[left] + nums[right] ==target:
                 return [left,right]
-            right=right-1
+            right-=1
             
-            if right==left:
+            if left==right:
                 left+=1
                 right=n-1
-                
             #Time complexity- O(n)
-            #Space complexity- O(1) asno extra meory is used.
+            #Space complexity- O(1) as no extra meory is used
                 
             
         
