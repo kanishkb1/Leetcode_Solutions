@@ -17,5 +17,6 @@ class Solution:
         return previous
             
             
-        
+     #Time complexity-O(n)
+     #Space complexity-O(1) as no other extra space is used.
         
