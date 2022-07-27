@@ -25,7 +25,8 @@ class Solution:
         return head
             
         
-        
+        #Run time complexity-O(n)
+        #Space-O(1)
         
         
         
