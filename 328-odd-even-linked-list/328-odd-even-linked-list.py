@@ -22,4 +22,5 @@ class Solution:
         odd.next = evenhead
         return head
             
-            
+        #Space coomplexity- O(n)
+        #Time complexitry-O(1)
