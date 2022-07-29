@@ -37,6 +37,7 @@ class Solution:
         tail.next = current
         return head
         
-       
+       #Space complexity- O(1)
+       #Time cpomplexity- O(n) 
             
         
