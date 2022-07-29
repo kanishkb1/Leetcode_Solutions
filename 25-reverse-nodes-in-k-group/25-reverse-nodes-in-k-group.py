@@ -23,3 +23,6 @@ class Solution:
             
         head.next = self.reverseKGroup(current,k)
         return previous
+    
+    #TC: O(n)
+    #SC: O(1)
