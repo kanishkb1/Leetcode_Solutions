@@ -24,13 +24,19 @@ class Solution:
         
         current = head
         
+        #get the nodes before we have made the cut (we have to rotate)
         for i in range(length - k -1):
              current = current.next
-                
+    
         newHead = current.next
+        #connect the new node with the tail pointer (where we have cutted the Kth node to end)
         current.next = None
+        
+        
         tail.next=head
         return newHead
         
+        #Time complexity- O(N)
+        #SC:O(1)
             
     
