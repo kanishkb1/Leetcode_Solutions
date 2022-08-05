@@ -5,4 +5,5 @@ class Solution:
     
         nums = sorted(nums)
         return nums[half]
-        
+        #TC: log n
+        #SC: O(1)
