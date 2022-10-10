@@ -6,3 +6,6 @@ class Solution:
         nums.sort()
         
         return nums[length // 2]
+    
+    #Time complexity- O(n)
+    #Space Complexity- O(1)
