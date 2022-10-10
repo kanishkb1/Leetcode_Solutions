@@ -31,4 +31,5 @@ class Solution:
                 result.append(level)
         return result                  
                 
-        
+        #tc: O(n)
+        #sc:0(n)
