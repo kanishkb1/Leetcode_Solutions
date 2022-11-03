@@ -12,4 +12,6 @@ class Solution:
                 pointer1 += 1
             pointer2 += 1
         return k == s 
+    #SC: O(s + t)
+    #TC: O(N)
  
