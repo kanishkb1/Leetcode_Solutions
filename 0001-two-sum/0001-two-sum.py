@@ -15,9 +15,7 @@ class Solution:
             if right==left:
                 left+=1
                 right=n-1
-                
-            #Time complexity- O(n)
-            #Space complexity- O(1) asno extra meory is used.
-                
             
+            
+      
         
